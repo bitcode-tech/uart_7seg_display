@@ -6,7 +6,7 @@ BC759x series 7-segment LED display driver + keyboard interface chip provides a 
 
 - BC7595 -- 48 segments (six 7-segment numeric displays with decimal points) + 48-key keyboard matrix chip, datasheets: (English , [简体中文](./extras/docs/bc7595.pdf))
 
-- BC7591 -- 256 segments (32 7-segment numeric displays with decimal points) + 96-key keyboard matrix chip, datasheets: ([English](./extras/docs/bc7591_en.pdf_) , [简体中文](./extras/docs/bc7591.pdf))
+- BC7591 -- 256 segments (32 7-segment numeric displays with decimal points) + 96-key keyboard matrix chip, datasheets: ([English](./extras/docs/bc7591_en.pdf) , [简体中文](./extras/docs/bc7591.pdf))
 
 This driver library is compatible with all Arduino devices, and can be used with both hardware serial ports and software serial ports.
 Each instruction of the BC759x consists of 2 bytes, the first byte is the instruction and the second byte is the data. The driver library provides a basic function, sendCmd(), which can be used to send arbitrary instructions to the BC759x. At the same time, the driver library provides several upper-layer functions that wrap several of the most commonly used functions in use. The upper-layer functions are as follows.
