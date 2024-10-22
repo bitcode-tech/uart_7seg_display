@@ -37,6 +37,6 @@ The BC759x chip uses serial communication, and the communication uses 2 pins TX 
 
 ![](./extras/img/serial_port_connection.png)
 
-For more detailed information about this library please see : [usage](./extras/docs/usage.md)
+For more detailed information about this library please see : [usage](./extras/docs/Usage.md)
 
 Or for the PDF version of the complete user manual in [简体中文](./extras/docs/BC759x_7seg_LED_Display_Library_Arduino_cn.pdf) or [English](./extras/docs/BC759x_7seg_LED_Display_Library_Arduino.pdf)
